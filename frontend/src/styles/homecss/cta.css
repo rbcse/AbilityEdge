@@ -1,0 +1,28 @@
+.cta-section , .box , .boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap:2rem;
+}
+
+.cta-section{
+    width:100%;
+    padding:1.5rem;
+}
+
+.boxes{
+    flex-direction: row;
+    width:100%;
+}
+
+.box{
+    width:40%;
+    background-color: #dcdde1;
+    border-radius:10px;
+    padding:1.2rem;
+}
+
+.cta-section h1{
+    font-weight:900;
+}
